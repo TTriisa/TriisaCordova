@@ -132,5 +132,19 @@ body {
   line-height:normal;
   padding:5px 10px;
 }
+
+.highlight {
+    background-color: #ccc
+}
+
+.nextPage {
+    float: right;
+    margin: 25px;
+}
+
+.prevPage {
+    float: left;
+    margin: 25px;
+}
 /********************* END LEFT MENU ***************/
 /******************************************************/

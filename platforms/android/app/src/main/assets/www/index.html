@@ -17,7 +17,6 @@
 		  <section class="menu-section">
 			<h3 class="menu-section-title">Ebook Pages</h3>
 			<ul id="menu-list" class="menu-section-list">
-				<li><a href="#/">Introduction</a></li>
 				<li><a href="#/chapter1">Chapter 1</a></li>
 				<li><a href="#/chapter2">Chapter 2</a></li>
 				<li><a href="#/chapter3">Chapter 3</a></li>
@@ -39,7 +38,11 @@
 			<!-- CONTENT RENDERED BY ANGULARJS -->
 			<div id="ebook-wrapper"> 
 				<div id="ebook-content" ng-view></div>    
-			</div> 
+			</div>
+			<div>
+				<button class="btn btn-dark nextPage" id="nextPage">Next page</button>
+				<button class="btn btn-dark prevPage" id="prevPage">Previous page</button>
+			</div>
 		</div>
 		
 		<!--  REQUIRED SCRIPTS -->
