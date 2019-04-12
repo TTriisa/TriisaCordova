@@ -146,5 +146,9 @@ body {
     float: left;
     margin: 25px;
 }
+
+.menu-section-list a {
+    font-size: 20px
+}
 /********************* END LEFT MENU ***************/
 /******************************************************/
